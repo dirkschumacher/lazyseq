@@ -1,0 +1,22 @@
+Package: lazyseq
+Title: Lazy List
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Dirk",
+           family = "Schumacher",
+           role = c("aut", "cre"),
+           email = "mail@dirk-schumacher.net")
+Description: A lazy version of base list, where each element gets only
+    evaluated when it is needed.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    vctrs,
+    rlang,
+    methods
